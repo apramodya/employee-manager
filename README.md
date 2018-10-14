@@ -1,6 +1,19 @@
 # employee-manager
 
-> A Vue.js project
+> A Vue.js project using Google Firestore database
+
+## Database setup
+
+goto https://console.firebase.google.com and make a firestore db named `employees`
+
+get the config details and add config object to `src/components/example-firebaseConfig.js` file and rename the file as `firebaseConfig.js`
+
+## Usage setup
+
+``` bash
+# install dependencies
+npm install
+``` 
 
 ## Build Setup
 
@@ -17,5 +30,3 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
